@@ -4,10 +4,11 @@
  * ohmy god
  * Return: 0
  */
-void main(void)
+int main()
 {
 	int i;
 
 	for (i = 97; i <= 122; i++)
-		putchar(i)
+		putchar(i);
+	return 0
 }
