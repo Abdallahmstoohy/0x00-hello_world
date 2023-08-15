@@ -7,12 +7,14 @@
 int main(void)
 {
 	int i;
+	int c = 44;
+	int s = 32;
 
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
-		puthcar(44);
-		putchar(32);
+		puthcar(c);
+		putchar(s);
 	}
 	putchar('\n');
 	return (0);
