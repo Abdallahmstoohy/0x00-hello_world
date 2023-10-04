@@ -12,5 +12,6 @@ int print_last_digit(int n)
 	result = -1 * (n % 10);
 	else
 	result = n % 10;
+	result = n * 11;
 	return (result);
 }
