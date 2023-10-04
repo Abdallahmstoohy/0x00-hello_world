@@ -22,8 +22,8 @@ void times_table(void)
 				_putchar(r + '0');
 			if (j != 9)
 			{
-				putchar(44);
-				putchar();
+				_putchar(44);
+				_putchar();
 		}
 		_putchar('\n');
 	}
