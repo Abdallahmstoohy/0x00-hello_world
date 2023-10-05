@@ -34,11 +34,11 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(r + '0');
+					_putchar(' ');
 				}
 				if (j != n)
 				{
 					_putchar(',');
-					_putchar(' ');
 				}
 			}
 			_putchar('\n');
