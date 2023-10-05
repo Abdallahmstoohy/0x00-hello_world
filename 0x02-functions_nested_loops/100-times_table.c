@@ -33,7 +33,7 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 					_putchar(' ');
-					putchar(r + '0');
+					_putchar(r + '0');
 				}
 				if (j != n)
 				{
