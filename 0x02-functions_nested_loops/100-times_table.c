@@ -39,7 +39,7 @@ void print_times_table(int n)
 				if (j != n)
 					_putchar(',');
 				if (r == 0)
-					_putchar(r + 'o');
+					_putchar(r + '0');
 			}
 			_putchar('\n');
 		}
